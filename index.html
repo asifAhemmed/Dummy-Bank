@@ -1,11 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dummy Bank</title>
-</head>
-<body>
-    <h1>Welcome to Dummy Bank</h1>
-</body>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header>
+      <h1 class="text-6xl text-center mt-6">
+        Welcome to <span class="text-purple-400 font-bold">Dummy Bank</span>
+      </h1>
+    </header>
+    <main>
+        <section class="bg-blue-100 mt-6 w-9/12 mx-auto p-8">
+            <h2 class="font-medium text-3xl mb-4">Please Login</h2>
+            <div>
+                <input class="w-9/12 px-2 py-2 block mb-3" type="email" name="" id="" placeholder="Your Email">
+                <input class="w-9/12 px-2 py-2 block mb-3" type="password" name="" id="" placeholder="Your Password">
+                <button class="font-medium bg-purple-500 hover:bg-purple-600 px-4 py-2 text-white rounded-lg">Submit</button>
+            </div>
+        </section>
+    </main>
+  </body>
 </html>
