@@ -4,8 +4,8 @@ document.getElementById('btn-submit').addEventListener('click', function(){
     const passwordField = document.getElementById('password-field');
     const password = passwordField.value;
     if(email === 'asifahemmed0@gmail.com' && password === 'asifrahi'){
-        console.log('Valid user');
+        window.location.href = 'dashboard.html';
     }else{
-        console.log('Invalid User')
+        alert('Invalid User')
     }
 });
